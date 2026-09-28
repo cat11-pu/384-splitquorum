@@ -1,0 +1,16 @@
+{
+  "budget": 2,
+  "bad_node_code": "E_BAD_NODE",
+  "bad_side_code": "E_BAD_SIDE",
+  "dup_code": "E_DUP_PART",
+  "none_code": "E_NO_SIDE",
+  "event_error_code": "E_BAD_EVENT",
+  "state": { "sides": [], "asks": [], "ledger": [], "applied": [] },
+  "events": [
+    { "id": 1, "kind": "part", "node": "a", "side": "L" },
+    { "id": 2, "kind": "part", "node": "b", "side": "L" },
+    { "id": 3, "kind": "part", "node": "c", "side": "R" },
+    { "id": 4, "kind": "ask", "side": "L" },
+    { "id": 5, "kind": "ask", "side": "R" }
+  ]
+}
